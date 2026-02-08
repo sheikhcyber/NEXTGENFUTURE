@@ -21,4 +21,5 @@ function toggleSettings() {
 
 function changeTheme() {
   document.body.classList.toggle("light-mode");
+
 }
