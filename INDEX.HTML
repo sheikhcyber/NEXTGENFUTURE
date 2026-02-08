@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextGen Future</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Chart.js for charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- TOP NAVBAR -->
+<header class="navbar">
+  <div class="logo">
+    🌌 NextGen Future
+  </div>
+
+  <nav class="nav-links">
+    <a href="#welcome">Home</a>
+    <a href="#purpose">Explore</a>
+    <a href="#charts">Careers</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="nav-actions">
+    <button class="settings-btn" onclick="toggleSettings()">⚙️</button>
+  </div>
+</header>
+  
+  <!-- SETTINGS TOGGLE -->
+  <div id="settings" class="settings">
+    <button onclick="toggleDarkMode()">🌙 / ☀️</button>
+  </div>
+
+  <!-- Falling Stars Background -->
+  <canvas id="stars"></canvas>
+
+    <!-- WELCOME GREETING -->
+  <section id="welcome" class="section">
+    <h2 id="welcomeText">Welcome to NextGen Future!</h2>
+  </section>
+
+  <!-- PURPOSE SECTION -->
+  <section id="purpose" class="section purpose-section">
+   <h2>Purpose of NextGen Future</h2>
+
+<p>
+NextGen Future is a vision-driven platform created to guide students, young professionals, and aspiring entrepreneurs
+towards a clear, confident, and successful future. In today’s fast-changing world, confusion about careers, education,
+and business choices has become very common. Many students choose streams without understanding their scope, many people
+enter jobs without long-term planning, and many dream of business success without proper direction. This platform exists
+to change that.
+</p>
+
+<p>
+The main purpose of NextGen Future is to provide <strong>clarity, direction, and motivation</strong>. It helps individuals
+understand who they are, what they are capable of, and which path suits them best. Instead of blindly following trends,
+students and professionals are encouraged to make informed decisions based on their interests, skills, mindset, and
+future opportunities.
+</p>
+
+<p>
+This website focuses on three major pillars of success: <strong>Education, Skills, and Decision-Making</strong>.
+Education builds knowledge, skills create opportunities, and correct decisions shape destiny. When these three come
+together, success becomes achievable for anyone, regardless of background.
+</p>
+
+<h3>Why This Platform Matters</h3>
+
+<p>
+Many students struggle after school because they don’t know which stream to choose: Science, Commerce, Arts, or
+Vocational. Others complete degrees but still feel lost because they lack real-world skills. Some want to start
+businesses but fear failure due to lack of guidance. NextGen Future addresses all these problems in one place.
+</p>
+
+<p>
+Here, users can explore different career paths such as engineering, medical, IT, creative fields, and government jobs.
+They can also understand business models like startups, online businesses, freelancing, and traditional enterprises.
+Each path is explained with clarity, honesty, and practical insight.
+</p>
+
+<h3>Vision for the Future Generation</h3>
+
+<p>
+The vision of NextGen Future is to build a generation that is not only educated but also skilled, confident, ethical,
+and future-ready. Success is not just about money or status; it is about growth, balance, purpose, and contribution
+to society. This platform encourages lifelong learning, discipline, patience, and smart planning.
+</p>
+
+<p>
+In the future, technology will change jobs rapidly. Artificial Intelligence, automation, and digital platforms will
+create new opportunities while removing old ones. NextGen Future prepares users for this reality by highlighting
+future skills, adaptable careers, and continuous self-improvement.
+</p>
+
+<h3>Who Can Use NextGen Future?</h3>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>School students confused about subject and stream selection</li>
+  <li>College students planning careers or higher education</li>
+  <li>Job seekers looking for better opportunities</li>
+  <li>Aspiring entrepreneurs and business starters</li>
+  <li>Anyone who wants clarity, motivation, and direction in life</li>
+</ul>
+
+<p>
+NextGen Future is not about shortcuts. It is about understanding the journey, respecting the process, and building
+success step by step. Every section of this website is designed to help users think clearly, plan wisely, and act
+confidently.
+</p>
+
+<p>
+This is not just a website. It is a roadmap for those who want to take control of their future.
+</p>
+  
+  </section>
+
+  <!-- Other sections placeholders -->
+  <section id="categories" class="section">
+   <h2>Careers & Job Opportunities</h2>
+
+<p>
+Choosing the right career is one of the most important decisions in a person’s life. A career is not just a way to earn
+money; it defines your lifestyle, growth, confidence, and contribution to society. Many people make career decisions
+based on pressure, trends, or incomplete information, which later leads to dissatisfaction and confusion.
+NextGen Future helps you understand careers deeply so that your choice is based on clarity, not confusion.
+</p>
+
+<p>
+A successful career depends on three things: <strong>interest, skills, and long-term demand</strong>. If any one of
+these is missing, growth becomes difficult. Below are major career paths explained honestly, with their scope,
+requirements, and future relevance.
+</p>
+
+<h3>Engineering Careers</h3>
+
+<p>
+Engineering is one of the most popular career choices, especially among science students. Engineers solve real-world
+problems using logic, creativity, and technology. However, engineering success does not come from the degree alone.
+Skills, practical knowledge, and continuous learning are essential.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li><strong>Civil Engineering:</strong> Infrastructure, construction, planning, and design of buildings, roads, and bridges.</li>
+  <li><strong>Mechanical Engineering:</strong> Machines, manufacturing, automobiles, and industrial systems.</li>
+  <li><strong>Electrical Engineering:</strong> Power systems, electronics, renewable energy, and automation.</li>
+  <li><strong>Computer & Software Engineering:</strong> Programming, software development, apps, and systems.</li>
+  <li><strong>AI & Data Engineering:</strong> Artificial intelligence, machine learning, and data-driven systems.</li>
+</ul>
+
+<p>
+Engineering offers strong opportunities, but only for those who focus on skills, internships, projects, and real-world
+experience. The future belongs to engineers who adapt, learn new tools, and solve meaningful problems.
+</p>
+
+<h3>Medical & Healthcare Careers</h3>
+
+<p>
+Medical careers are respected and impactful because they directly serve humanity. Becoming a doctor or healthcare
+professional requires dedication, patience, and emotional strength. It is a long journey, but highly rewarding for
+those who truly want to help others.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li><strong>General Physician:</strong> Diagnosis, treatment, and patient care.</li>
+  <li><strong>Surgeon:</strong> Specialized surgical treatment.</li>
+  <li><strong>Dentist:</strong> Oral health and dental care.</li>
+  <li><strong>Pharmacist:</strong> Medicines, healthcare support, and research.</li>
+  <li><strong>Medical Researcher:</strong> Innovation in healthcare and disease treatment.</li>
+</ul>
+
+<p>
+Healthcare careers demand discipline and continuous learning, but they offer stability, respect, and global demand.
+</p>
+
+<h3>Information Technology & Digital Careers</h3>
+
+<p>
+IT is one of the fastest-growing career domains in the world. Technology touches every industry today, making IT skills
+valuable across sectors. This field rewards creativity, logic, and continuous learning more than degrees alone.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li><strong>Software Developer:</strong> Web, mobile, and system applications.</li>
+  <li><strong>Data Scientist:</strong> Data analysis, insights, and prediction models.</li>
+  <li><strong>Cybersecurity Expert:</strong> Protecting systems and digital assets.</li>
+  <li><strong>AI Engineer:</strong> Smart systems, automation, and intelligent tools.</li>
+  <li><strong>Cloud Engineer:</strong> Cloud infrastructure and scalable systems.</li>
+</ul>
+
+<p>
+IT careers offer flexibility, remote work, global opportunities, and fast growth. However, constant skill upgrades are
+essential to stay relevant.
+</p>
+
+<h3>Government & Public Sector Jobs</h3>
+
+<p>
+Government jobs attract many aspirants due to stability, social respect, and long-term security. These careers require
+strong preparation, patience, and competitive exam performance.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Civil Services</li>
+  <li>Defense Services</li>
+  <li>Teaching & Education</li>
+  <li>Public Administration</li>
+  <li>Banking & Finance</li>
+</ul>
+
+<p>
+These roles demand responsibility, integrity, and dedication toward public service.
+</p>
+
+<h3>Creative & Emerging Careers</h3>
+
+<p>
+Not everyone fits into traditional careers. Creative and emerging fields are growing rapidly, offering opportunities
+for those with imagination, passion, and originality.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Design & Multimedia</li>
+  <li>Content Creation & Media</li>
+  <li>Game Development</li>
+  <li>Digital Marketing</li>
+  <li>UI/UX Design</li>
+</ul>
+
+<p>
+These careers reward talent, consistency, and personal branding. Success comes from skill mastery and audience trust.
+</p>
+
+<p>
+NextGen Future encourages you to choose a career not based on pressure, but on understanding, preparation, and long-term
+vision. A well-chosen career becomes a powerful foundation for a successful life.
+</p>
+  </section>
+  <section id="business" class="section"> 
+    <h2>Business & Entrepreneurship</h2>
+
+<p>
+Business is not just about profit; it is about solving problems, creating value, and building something meaningful.
+Entrepreneurship gives individuals the power to design their own future instead of depending only on jobs. However,
+business success requires mindset, patience, planning, and discipline. NextGen Future presents a clear and realistic
+view of business opportunities so that aspiring entrepreneurs can make informed decisions.
+</p>
+
+<p>
+Many people dream of starting a business, but few understand the responsibility and consistency it demands. Business
+is not a shortcut to success; it is a long-term journey that rewards smart thinking, continuous learning, and
+adaptability.
+</p>
+
+<h3>Traditional Business Models</h3>
+
+<p>
+Traditional businesses form the backbone of the economy. These include shops, manufacturing units, services, and
+local enterprises. While they may not seem glamorous, they provide stable income and long-term growth when managed
+properly.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Retail & Wholesale Business</li>
+  <li>Manufacturing & Production Units</li>
+  <li>Service-Based Businesses (repairs, logistics, consulting)</li>
+  <li>Food & Hospitality Industry</li>
+</ul>
+
+<p>
+Traditional businesses succeed through customer trust, quality service, consistency, and ethical practices.
+Understanding market demand and managing finances wisely are key factors.
+</p>
+
+<h3>Online & Digital Businesses</h3>
+
+<p>
+The digital revolution has opened doors to online businesses that require less investment and offer global reach.
+Online businesses focus on skills, creativity, and smart use of technology.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>E-commerce (selling products online)</li>
+  <li>Freelancing & Remote Services</li>
+  <li>Content Creation & Monetization</li>
+  <li>Digital Marketing Agencies</li>
+  <li>Online Education & Coaching</li>
+</ul>
+
+<p>
+Online businesses demand consistency, digital skills, branding, and audience trust. Growth may be slow initially,
+but long-term rewards are powerful.
+</p>
+
+<h3>Startups & Innovation-Based Businesses</h3>
+
+<p>
+Startups focus on innovation, scalability, and solving large problems. They are driven by ideas, technology, and
+vision. Startups involve higher risk but also higher growth potential.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Technology Startups</li>
+  <li>Health & EdTech Solutions</li>
+  <li>AI & Automation-Based Products</li>
+  <li>Green & Sustainable Businesses</li>
+</ul>
+
+<p>
+Startup success depends on market research, teamwork, funding strategy, and execution. Failure is common, but learning
+from mistakes is part of the journey.
+</p>
+
+<h3>Entrepreneurial Mindset</h3>
+
+<p>
+A successful entrepreneur thinks differently. They focus on solutions, not excuses. They take calculated risks,
+learn from failures, and stay consistent even during difficult times. Discipline, patience, and self-belief are more
+important than money or background.
+</p>
+
+<p>
+NextGen Future encourages future entrepreneurs to start small, learn continuously, and grow responsibly. Business
+success is built step by step, not overnight.
+</p>
+
+<p>
+Whether you choose a traditional business, online venture, or innovative startup, the key is understanding yourself,
+your market, and your long-term vision.
+</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills for Future</h2>
+   
+    <p>
+In the modern world, degrees alone are no longer enough to guarantee success. Skills are the real currency of the future.
+Industries are changing rapidly, technology is evolving, and employers now value what you can do more than what
+certificate you hold. NextGen Future focuses on helping individuals understand and develop the skills that truly matter.
+</p>
+
+<p>
+Skills can be divided into three major categories: <strong>Technical Skills, Soft Skills, and Life Skills</strong>.
+A balanced combination of all three creates a strong foundation for long-term success in careers, business, and life.
+</p>
+
+<h3>Technical Skills</h3>
+
+<p>
+Technical skills are job-specific abilities that help you perform tasks efficiently. These skills often depend on
+industry and role, but they must be continuously upgraded to stay relevant.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Programming & Software Development</li>
+  <li>Artificial Intelligence & Machine Learning</li>
+  <li>Data Analysis & Data Science</li>
+  <li>Cybersecurity & Cloud Computing</li>
+  <li>Engineering & Technical Design Skills</li>
+  <li>Digital Marketing & Online Tools</li>
+</ul>
+
+<p>
+Technical skills open doors to opportunities, but without problem-solving ability and adaptability, they become
+outdated quickly. Continuous learning is essential.
+</p>
+
+<h3>Soft Skills</h3>
+
+<p>
+Soft skills define how you work with others and how you handle responsibilities. These skills are often ignored,
+but they play a major role in leadership, teamwork, and professional growth.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Communication & Public Speaking</li>
+  <li>Leadership & Teamwork</li>
+  <li>Critical Thinking & Decision Making</li>
+  <li>Emotional Intelligence</li>
+  <li>Adaptability & Creativity</li>
+</ul>
+
+<p>
+A person with strong soft skills can lead teams, manage conflicts, and build trust. These skills often determine who
+gets promoted and who becomes a leader.
+</p>
+
+<h3>Life Skills</h3>
+
+<p>
+Life skills shape character, discipline, and mindset. They determine how well you handle challenges, pressure, and
+long-term goals. Life skills are essential for both personal and professional success.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Time Management & Productivity</li>
+  <li>Goal Setting & Planning</li>
+  <li>Self-Discipline & Consistency</li>
+  <li>Financial Literacy</li>
+  <li>Stress Management & Mental Strength</li>
+</ul>
+
+<p>
+Without life skills, even talented individuals struggle to maintain success. Discipline and consistency often matter
+more than talent.
+</p>
+
+<h3>Skills vs Degrees</h3>
+
+<p>
+Degrees provide structure and foundational knowledge, but skills provide execution power. The most successful
+individuals combine education with practical skills. They focus on learning by doing, not just memorizing.
+</p>
+
+<p>
+NextGen Future encourages learners to build skills through projects, internships, practice, and real-world exposure.
+Skills make you adaptable, confident, and future-ready.
+</p>
+
+<p>
+In the future, those who continuously upgrade their skills will always find opportunities, regardless of changes in
+industries or technologies.
+</p>
+  </section>
+ 
+
+  <section id="decision" class="section">
+
+    <h2>Decision Making for the Future</h2>
+
+<p>
+Every human life is shaped by decisions. Some decisions are small, while others define the direction of our entire
+future. Choosing a career, a field of study, or a life path is one of the most important decisions a person will ever make.
+Unfortunately, many people make these choices under pressure, confusion, or fear.
+</p>
+
+<p>
+NextGen Future exists to help individuals make informed, confident, and wise decisions based on clarity—not pressure.
+A good decision is not about copying others; it is about understanding yourself.
+</p>
+
+<h3>Why People Make Wrong Decisions</h3>
+
+<p>
+Many students and young individuals choose careers without proper thinking. The most common reasons include:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Family pressure or societal expectations</li>
+  <li>Following friends or trends</li>
+  <li>Fear of failure</li>
+  <li>Lack of awareness about options</li>
+  <li>Choosing money over passion without planning</li>
+</ul>
+
+<p>
+Wrong decisions often lead to frustration, lack of motivation, and wasted potential. That is why decision-making
+skills are as important as technical skills.
+</p>
+
+<h3>Understanding Yourself First</h3>
+
+<p>
+Before choosing any path, self-awareness is essential. Ask yourself important questions:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>What subjects or activities excite me?</li>
+  <li>What am I naturally good at?</li>
+  <li>Do I enjoy problem-solving, creativity, or communication?</li>
+  <li>Do I prefer stability or challenges?</li>
+  <li>What kind of life do I want in the future?</li>
+</ul>
+
+<p>
+Honest answers to these questions help you understand your strengths, interests, and personality.
+</p>
+
+<h3>Interest vs Pressure</h3>
+
+<p>
+Interest gives long-term motivation, while pressure gives short-term action. A career chosen only under pressure
+often leads to burnout. However, interest alone is not enough—it must be supported with planning and skills.
+</p>
+
+<p>
+The best decisions are made where interest, ability, and opportunity meet. This balance creates sustainable success.
+</p>
+
+<h3>Career, Business, or Skill-Based Path</h3>
+
+<p>
+Today, success does not come from only one route. There are multiple paths:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Traditional careers (engineering, medicine, teaching)</li>
+  <li>Business and entrepreneurship</li>
+  <li>Skill-based freelancing and digital careers</li>
+  <li>Hybrid paths combining education and skills</li>
+</ul>
+
+<p>
+Each path requires discipline, patience, and effort. The correct path depends on personality, goals, and resources.
+</p>
+
+<h3>A Simple Decision Framework</h3>
+
+<p>
+NextGen Future recommends a simple framework before making any major decision:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Understand yourself</li>
+  <li>Research available options</li>
+  <li>Analyze long-term growth</li>
+  <li>Evaluate risks realistically</li>
+  <li>Take guidance but decide independently</li>
+</ul>
+
+<p>
+A well-thought decision may take time, but it saves years of regret.
+</p>
+
+<h3>Faith, Patience, and Effort</h3>
+
+<p>
+Along with planning and thinking, faith and patience play a vital role. Success is not instant. Trust the process,
+put in effort, and remain consistent. When intention is clear and effort is honest, results always come.
+</p>
+
+<p>
+Your future is not decided by one exam or one failure. It is shaped by continuous learning, correct decisions,
+and strong character.
+</p>
+  </section>
+  <section id="engineering" class="section">
+    <h2>Engineering – Understanding the Real Meaning</h2>
+
+<p>
+Engineering is not just about machines, buildings, or coding. Engineering is the art of solving real-world problems
+using science, logic, creativity, and technology. Engineers are the backbone of modern civilization—from roads and
+bridges to mobile phones, satellites, and artificial intelligence.
+</p>
+
+<p>
+Many students choose engineering without fully understanding what it truly demands. This section will help you
+understand engineering clearly, honestly, and practically.
+</p>
+
+<h3>What is Engineering?</h3>
+
+<p>
+Engineering is the application of scientific and mathematical principles to design, build, and maintain systems,
+structures, machines, and processes. Engineers convert ideas into reality.
+</p>
+
+<p>
+An engineer’s work requires:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Strong problem-solving ability</li>
+  <li>Logical thinking</li>
+  <li>Patience and consistency</li>
+  <li>Continuous learning</li>
+  <li>Practical understanding, not rote learning</li>
+</ul>
+
+<h3>Common Myths About Engineering</h3>
+
+<p>
+Many students enter engineering with misconceptions:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Engineering guarantees a high-paying job</li>
+  <li>Only toppers can survive engineering</li>
+  <li>Engineering is only about theory</li>
+  <li>Degree alone is enough for success</li>
+</ul>
+
+<p>
+Reality is different. Engineering success depends on skills, projects, mindset, and adaptability—not just marks.
+</p>
+
+<h3>Major Branches of Engineering</h3>
+
+<h4>1. Computer Science & Engineering (CSE)</h4>
+<p>
+CSE focuses on software development, programming, data structures, artificial intelligence, cybersecurity,
+web development, and app development. This branch has massive future scope but requires continuous skill upgrading.
+</p>
+
+<h4>2. Mechanical Engineering</h4>
+<p>
+Mechanical engineering deals with machines, manufacturing, thermal systems, automobiles, and robotics.
+It is suitable for those who love physical systems and design.
+</p>
+
+<h4>3. Civil Engineering</h4>
+<p>
+Civil engineers design and build infrastructure such as buildings, roads, bridges, and dams.
+It requires strong planning, responsibility, and on-site involvement.
+</p>
+
+<h4>4. Electrical Engineering</h4>
+<p>
+Electrical engineering focuses on power systems, electronics, electrical machines, and energy systems.
+This branch is crucial for industrial and infrastructure development.
+</p>
+
+<h4>5. Electronics & Communication Engineering (ECE)</h4>
+<p>
+ECE covers communication systems, embedded systems, microcontrollers, IoT, and electronics hardware.
+It combines hardware with software knowledge.
+</p>
+
+<h3>New-Age Engineering Fields</h3>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Artificial Intelligence & Machine Learning</li>
+  <li>Cybersecurity</li>
+  <li>Data Science</li>
+  <li>Robotics & Automation</li>
+  <li>Renewable Energy Engineering</li>
+</ul>
+
+<p>
+These fields demand practical projects, internships, and real-world exposure.
+</p>
+
+<h3>Who Should Choose Engineering?</h3>
+
+<p>
+Engineering is ideal for students who:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Enjoy solving complex problems</li>
+  <li>Are curious about how things work</li>
+  <li>Can commit to long-term learning</li>
+  <li>Are willing to learn beyond the classroom</li>
+</ul>
+
+<p>
+Engineering is not about shortcuts. It rewards discipline, consistency, and innovation.
+</p>
+
+<h3>Engineering + Skills = Success</h3>
+
+<p>
+In today’s world, a degree alone is not enough. Engineers must learn skills such as programming, design tools,
+communication, teamwork, and project management.
+</p>
+
+<p>
+The future belongs to engineers who can adapt, innovate, and continuously improve themselves.
+</p>
+  </section>
+  <section id="medical" class="section">
+    <h2>Medical Field – More Than a Career, It Is a Responsibility</h2>
+
+<p>
+The medical profession is one of the most respected and demanding fields in the world. Becoming a doctor is not just
+about earning money or status—it is about serving humanity, saving lives, and carrying responsibility every day.
+</p>
+
+<p>
+Many students dream of becoming doctors without understanding the reality of this profession. This section explains
+the medical field honestly, clearly, and practically.
+</p>
+
+<h3>What Does It Mean to Be a Doctor?</h3>
+
+<p>
+A doctor is a lifelong learner, a problem solver, and a caretaker. The journey does not end with a degree—it continues
+throughout life. Doctors deal with real human pain, emotions, pressure, and critical decisions.
+</p>
+
+<p>
+This profession demands:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Strong dedication and patience</li>
+  <li>Emotional strength</li>
+  <li>Long study hours</li>
+  <li>High ethical standards</li>
+  <li>Service mindset</li>
+</ul>
+
+<h3>Common Myths About Medical Field</h3>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Doctors earn money quickly</li>
+  <li>Medical life is easy after MBBS</li>
+  <li>Only toppers can survive medical studies</li>
+  <li>Doctors have no stress</li>
+</ul>
+
+<p>
+Reality: Medical education is long, demanding, and mentally challenging. Financial success comes later, not early.
+</p>
+
+<h3>Major Medical Career Paths</h3>
+
+<h4>1. MBBS (Bachelor of Medicine & Surgery)</h4>
+<p>
+MBBS is the primary medical degree. It includes intense theoretical study, practical training, hospital rotations,
+and internships. It takes many years before a doctor becomes fully independent.
+</p>
+
+<h4>2. Specializations (MD / MS)</h4>
+<p>
+After MBBS, doctors can specialize in areas like:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>General Medicine</li>
+  <li>General Surgery</li>
+  <li>Pediatrics</li>
+  <li>Orthopedics</li>
+  <li>Gynecology</li>
+  <li>Cardiology</li>
+  <li>Neurology</li>
+</ul>
+
+<p>
+Specialization increases expertise but also adds more years of hard work.
+</p>
+
+<h4>3. Alternative Medical Fields</h4>
+
+<p>
+Not all medical careers require becoming a traditional doctor. Other important paths include:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>BDS (Dental)</li>
+  <li>BAMS (Ayurveda)</li>
+  <li>BHMS (Homeopathy)</li>
+  <li>BPT (Physiotherapy)</li>
+  <li>Nursing</li>
+  <li>Medical Laboratory Technology</li>
+</ul>
+
+<h3>Who Should Choose the Medical Field?</h3>
+
+<p>
+Medical field is suitable for those who:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Have genuine interest in biology</li>
+  <li>Can handle long-term pressure</li>
+  <li>Are emotionally strong</li>
+  <li>Want to serve people</li>
+  <li>Can study consistently for many years</li>
+</ul>
+
+<h3>Challenges in Medical Life</h3>
+
+<p>
+Doctors face challenges such as:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Long working hours</li>
+  <li>High mental stress</li>
+  <li>Critical responsibility</li>
+  <li>Delayed financial stability</li>
+</ul>
+
+<p>
+Despite these challenges, the respect, impact, and fulfillment of saving lives make this profession noble.
+</p>
+
+<h3>Medical Field in the Future</h3>
+
+<p>
+With population growth, aging societies, and new diseases, the demand for healthcare professionals will always
+remain strong. Technology is also transforming healthcare through telemedicine, AI diagnosis, and advanced treatments.
+</p>
+
+<p>
+Doctors who adapt to technology and maintain ethical values will always be needed.
+</p>
+  </section>
+
+<section id="business" class="section">
+  <h2>Business & Entrepreneurship – Creating Opportunities, Not Waiting for Them</h2>
+
+<p>
+Business is not just about money. It is about vision, problem-solving, risk-taking, and leadership.
+Entrepreneurs do not wait for opportunities—they create them.
+</p>
+
+<p>
+In today’s world, business is no longer limited to big factories or shops. Digital platforms, services,
+and small startups have made entrepreneurship accessible to everyone.
+</p>
+
+<h3>What is Business?</h3>
+
+<p>
+Business is the process of identifying a problem and offering a valuable solution in exchange for income.
+A successful business always focuses on solving real problems efficiently.
+</p>
+
+<p>
+Every business revolves around three core elements:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Product or service value</li>
+  <li>Customer trust</li>
+  <li>Consistency and scalability</li>
+</ul>
+
+<h3>Common Myths About Business</h3>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Business is only for rich people</li>
+  <li>Business guarantees quick money</li>
+  <li>Education is useless for business</li>
+  <li>Only extroverts succeed in business</li>
+</ul>
+
+<p>
+Reality: Business requires learning, patience, planning, and discipline—just like any profession.
+</p>
+
+<h3>Types of Business</h3>
+
+<h4>1. Small & Local Business</h4>
+<p>
+Includes shops, services, repair centers, food outlets, and local services.
+These businesses create steady income and strong community relationships.
+</p>
+
+<h4>2. Service-Based Business</h4>
+<p>
+Examples include digital marketing, consultancy, coaching, IT services, content creation, and freelancing agencies.
+Low investment, high skill focus.
+</p>
+
+<h4>3. Product-Based Business</h4>
+<p>
+Selling physical or digital products such as clothing, electronics, software, or online courses.
+Requires supply chain management and quality control.
+</p>
+
+<h4>4. Online & Digital Business</h4>
+<p>
+E-commerce, dropshipping, affiliate marketing, SaaS, and online education platforms fall under this category.
+Technology-driven and scalable.
+</p>
+
+<h4>5. Startup & Innovation-Based Business</h4>
+<p>
+Startups aim to solve problems in innovative ways and grow rapidly.
+They involve higher risk but also higher potential reward.
+</p>
+
+<h3>Entrepreneurial Mindset</h3>
+
+<p>
+Successful entrepreneurs think differently. They focus on:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Long-term vision</li>
+  <li>Learning from failure</li>
+  <li>Adaptability</li>
+  <li>Customer-first thinking</li>
+  <li>Self-discipline</li>
+</ul>
+
+<h3>Risk, Failure & Reality</h3>
+
+<p>
+Business always involves risk. Not every idea succeeds. Failure is not the opposite of success—it is part of the
+learning process.
+</p>
+
+<p>
+Smart entrepreneurs calculate risks, test ideas on a small scale, and improve continuously.
+</p>
+
+<h3>Business vs Job</h3>
+
+<p>
+A job provides stability and fixed income, while business offers freedom and unlimited growth.
+Neither is better than the other—both require responsibility and dedication.
+</p>
+
+<p>
+Some people start businesses after gaining experience through jobs. Hybrid paths often work best.
+</p>
+
+<h3>Business in the Future</h3>
+
+<p>
+Future businesses will focus on technology, sustainability, digital platforms, automation, and personalized services.
+Entrepreneurs who stay updated and ethical will thrive.
+</p>
+
+<p>
+Business is not for everyone, but for those who are patient, consistent, and resilient, it can be life-changing.
+</p>
+</section>
+<section id="skills" class="section">
+  <h2>Skills for the Future – Your Real Asset</h2>
+
+<p>
+Degrees open doors, but skills decide how far you go. In the modern world, success is no longer based only on
+certificates or marks. It is based on what you can actually do.
+</p>
+
+<p>
+Technology, automation, and artificial intelligence are changing jobs rapidly. Some jobs will disappear,
+new ones will be created, and skills will decide who survives and who grows.
+</p>
+
+<h3>Why Skills Matter More Than Ever</h3>
+
+<p>
+Companies today hire for skills, not just degrees. Freelancing, remote jobs, startups, and digital businesses
+all depend on practical ability.
+</p>
+
+<p>
+Skills give you:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Career flexibility</li>
+  <li>Multiple income opportunities</li>
+  <li>Job security</li>
+  <li>Global work options</li>
+</ul>
+
+<h3>Technical Skills (High Demand)</h3>
+
+<h4>1. Programming & Development</h4>
+<p>
+Programming skills such as web development, app development, and software engineering are in high demand.
+Languages like HTML, CSS, JavaScript, Python, and Java form the foundation.
+</p>
+
+<h4>2. Cybersecurity</h4>
+<p>
+As digital data increases, protecting information becomes critical. Cybersecurity professionals are
+needed in every sector.
+</p>
+
+<h4>3. Data Science & Analytics</h4>
+<p>
+Data-driven decisions power modern businesses. Skills in data analysis, statistics, and visualization
+are extremely valuable.
+</p>
+
+<h4>4. Artificial Intelligence & Machine Learning</h4>
+<p>
+AI is shaping the future—from healthcare to finance. Understanding how intelligent systems work gives
+a strong competitive advantage.
+</p>
+
+<h4>5. Digital Marketing</h4>
+<p>
+Marketing has moved online. Skills like SEO, social media marketing, content creation, and ads management
+are essential for businesses.
+</p>
+
+<h3>Non-Technical (Soft) Skills – Often Ignored but Critical</h3>
+
+<h4>1. Communication Skills</h4>
+<p>
+Clear communication helps you express ideas, work in teams, and build trust.
+Good communicators grow faster in any field.
+</p>
+
+<h4>2. Problem-Solving</h4>
+<p>
+The ability to analyze problems and find solutions is one of the most valuable skills in the future.
+</p>
+
+<h4>3. Adaptability & Learning Mindset</h4>
+<p>
+Technology changes fast. People who continuously learn and adapt will always stay relevant.
+</p>
+
+<h4>4. Time Management</h4>
+<p>
+Managing time effectively improves productivity, reduces stress, and builds discipline.
+</p>
+
+<h4>5. Leadership & Teamwork</h4>
+<p>
+Leadership is not about position—it is about responsibility, vision, and teamwork.
+</p>
+
+<h3>Skill-Based Careers</h3>
+
+<p>
+Many successful careers today are skill-based:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Freelancer</li>
+  <li>Content Creator</li>
+  <li>UI/UX Designer</li>
+  <li>Digital Marketer</li>
+  <li>Software Developer</li>
+</ul>
+
+<h3>How to Build Skills</h3>
+
+<p>
+Skill-building requires consistency, practice, and patience.
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Start small and stay consistent</li>
+  <li>Practice with real projects</li>
+  <li>Learn from failures</li>
+  <li>Improve daily</li>
+</ul>
+
+<h3>Skills + Character = Long-Term Success</h3>
+
+<p>
+Skills without discipline fade. Skills with honesty, patience, and ethics create long-term success.
+The future belongs to skilled individuals with strong character.
+</p>
+</section>
+
+  <section id="motivation" class="section">
+   <h2>Motivation & Direction – The Inner Power That Shapes Your Future</h2>
+
+<p>
+Success is not only about intelligence, money, or background.
+It is largely about mindset, discipline, and direction.
+Many people fail not because they lack talent, but because they lack clarity and consistency.
+</p>
+
+<p>
+Motivation gives you the energy to start, while direction gives you the wisdom to continue.
+Both are equally important.
+</p>
+
+<h3>Understanding Motivation</h3>
+
+<p>
+Motivation is the inner drive that pushes you to take action.
+It can come from dreams, struggles, responsibilities, or purpose.
+However, motivation alone is temporary—it comes and goes.
+</p>
+
+<p>
+That is why motivation must be supported by discipline.
+</p>
+
+<h3>Discipline Over Motivation</h3>
+
+<p>
+Discipline means doing what needs to be done even when you don’t feel like it.
+Highly successful people rely more on discipline than on motivation.
+</p>
+
+<p>
+Small daily actions, when repeated consistently, create massive results over time.
+</p>
+
+<h3>Finding Direction in Life</h3>
+
+<p>
+Direction means knowing where you are going and why.
+Without direction, even hard work can be wasted.
+</p>
+
+<p>
+To find direction, ask yourself:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>What kind of life do I want?</li>
+  <li>What values matter to me?</li>
+  <li>What problems do I want to solve?</li>
+  <li>What am I willing to work hard for?</li>
+</ul>
+
+<h3>Handling Failure & Setbacks</h3>
+
+<p>
+Failure is not the end—it is feedback.
+Every successful person has failed multiple times.
+The difference is that they learned, adapted, and continued.
+</p>
+
+<p>
+Do not let one failure define your future.
+</p>
+
+<h3>Consistency Beats Talent</h3>
+
+<p>
+Talent without consistency fades.
+Average ability with consistency grows.
+Success belongs to those who show up every day.
+</p>
+
+<h3>Faith, Patience & Positivity</h3>
+
+<p>
+Along with effort, faith and patience play a powerful role.
+Trust the process, remain positive, and keep improving yourself.
+Good results take time.
+</p>
+
+<p>
+Your journey is unique. Do not compare your chapter one with someone else’s chapter ten.
+</p>
+
+<h3>NextGen Message</h3>
+
+<p>
+You are capable of more than you think.
+With the right mindset, direction, and effort, you can build a meaningful and successful future.
+</p>
+ 
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education Streams</h2>
+   <h2>Education Streams – Science, Commerce & Arts Explained Clearly</h2>
+
+<p>
+One of the most confusing stages in a student’s life is choosing an education stream after school.
+This single decision often shapes academic direction, career opportunities, and future growth.
+</p>
+
+<p>
+Many students choose streams based on marks, pressure, or trends rather than understanding.
+NextGen Future aims to remove confusion and provide clarity.
+</p>
+
+<h3>Why Choosing the Right Stream Matters</h3>
+
+<p>
+An education stream is not just a subject group—it is a foundation.
+Choosing the right stream increases confidence, motivation, and long-term success.
+</p>
+
+<p>
+Wrong stream selection can lead to:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Lack of interest</li>
+  <li>Academic stress</li>
+  <li>Career confusion</li>
+  <li>Wasted years</li>
+</ul>
+
+<h3>Science Stream</h3>
+
+<p>
+The science stream is often considered the most challenging and demanding.
+It requires strong analytical skills, curiosity, and discipline.
+</p>
+
+<h4>Main Subjects</h4>
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Physics</li>
+  <li>Chemistry</li>
+  <li>Mathematics</li>
+  <li>Biology</li>
+</ul>
+
+<h4>Career Options</h4>
+<p>
+Science stream opens doors to:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Engineering</li>
+  <li>Medical</li>
+  <li>Research</li>
+  <li>Data Science</li>
+  <li>Technology & Innovation</li>
+</ul>
+
+<p>
+Science is suitable for students who enjoy problem-solving and logical thinking.
+</p>
+
+<h3>Commerce Stream</h3>
+
+<p>
+Commerce focuses on business, finance, economics, and management.
+It is ideal for students interested in markets, money flow, and organizational systems.
+</p>
+
+<h4>Main Subjects</h4>
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Accountancy</li>
+  <li>Business Studies</li>
+  <li>Economics</li>
+  <li>Mathematics (optional)</li>
+</ul>
+
+<h4>Career Options</h4>
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Chartered Accountant</li>
+  <li>Company Secretary</li>
+  <li>Banking & Finance</li>
+  <li>Management</li>
+  <li>Entrepreneurship</li>
+</ul>
+
+<p>
+Commerce suits students with analytical thinking and interest in business systems.
+</p>
+
+<h3>Arts / Humanities Stream</h3>
+
+<p>
+Arts is one of the most misunderstood streams.
+It focuses on human behavior, society, creativity, and communication.
+</p>
+
+<h4>Main Subjects</h4>
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>History</li>
+  <li>Political Science</li>
+  <li>Sociology</li>
+  <li>Psychology</li>
+  <li>Languages</li>
+</ul>
+
+<h4>Career Options</h4>
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Civil Services</li>
+  <li>Law</li>
+  <li>Journalism</li>
+  <li>Education</li>
+  <li>Social Work</li>
+  <li>Creative Fields</li>
+</ul>
+
+<p>
+Arts is ideal for students with creativity, communication skills, and social awareness.
+</p>
+
+<h3>No Stream is Superior</h3>
+
+<p>
+Every stream has value. Success depends on how well a student understands their strengths,
+interests, and goals—not on societal labels.
+</p>
+
+<p>
+Choosing the right stream is about self-awareness, not comparison.
+</p>
+
+<h3>Stream + Skills = Strong Future</h3>
+
+<p>
+Regardless of stream, skill-building is essential.
+Combining education with skills multiplies opportunities and confidence.
+</p>
+
+<p>
+Your stream is your starting point—not your limitation.
+</p>
+  </section>
+
+  <section id="charts" class="section">
+    <h2>Popular Choices Charts</h2>
+   <div class="popular-image">
+  <img src="data:image/jpeg;base64,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" alt="Popular Career Choices">
+</div>
+  </section>
+
+
+
+  <section id="about" class="section">
+   <h2>About Me – The Purpose Behind NextGen Future</h2>
+
+<p>
+My name is Ziya, and I created NextGen Future with a simple but powerful vision:
+to guide students, youth, and individuals toward clarity, confidence, and the right direction in life.
+</p>
+
+<p>
+In today’s world, many people feel lost. They are surrounded by options but lack guidance.
+I have personally seen students choose careers under pressure, follow trends blindly,
+and later struggle with regret and confusion.
+</p>
+
+<p>
+NextGen Future was created to solve this problem.
+This platform is not about forcing decisions—it is about helping people understand themselves
+and choose paths that align with their interests, strengths, and values.
+</p>
+
+<h3>Why I Built This Platform</h3>
+
+<p>
+I believe success is not about shortcuts. It is built step by step through learning,
+discipline, patience, and faith.
+</p>
+
+<p>
+This website is designed to:
+</p>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Guide students in choosing the right education stream</li>
+  <li>Explain careers honestly and realistically</li>
+  <li>Promote skill-based learning</li>
+  <li>Encourage ethical success and personal growth</li>
+</ul>
+
+<h3>My Belief</h3>
+
+<p>
+Everyone has potential. With the right guidance, mindset, and effort,
+anyone can build a meaningful and successful future.
+</p>
+
+<p>
+NextGen Future is not just a website—it is a mission.
+<img src="myphoto.jpg.jpg" class="profile-img" alt="Ziya">
+</p>
+
+  </section>
+  <section id="contact" class="section"> 
+  <h2>Contact & Support</h2>
+
+<p>
+If you need guidance, clarity, or support regarding education, career, skills, or future planning,
+feel free to reach out. You are not alone in your journey.
+</p>
+
+<h3>How You Can Contact</h3>
+
+<p>
+📧 Email:
+<a href="mailto:cyberziya96@gmail.com" style="color:#4fc3f7;">
+cyberziya96@gmail.com
+</a>
+</p>
+
+<p>
+I try my best to respond with honesty, care, and responsibility.
+Your questions and concerns matter.
+</p>
+
+<h3>Who This Support Is For</h3>
+
+<ul style="max-width:900px; margin:20px auto; text-align:left; font-size:1.1em; color:#ccc;">
+  <li>Students confused about careers</li>
+  <li>Individuals planning skill-based growth</li>
+  <li>People seeking motivation and direction</li>
+  <li>Anyone serious about building a better future</li>
+</ul>
+
+<h3>Final Message</h3>
+
+<p>
+Your future is not decided by one decision, one exam, or one failure.
+It is shaped by continuous learning, correct mindset, and consistent effort.
+</p>
+
+<p>
+Thank you for being part of NextGen Future.
+</p>
+  </section>
+
+
+
+  <!-- JS -->
+  <script src="script.js"></script>
+  <!-- SETTINGS PANEL -->
+<div id="settingsPanel" class="settings-panel">
+  <h3>Settings</h3>
+  <button onclick="changeTheme()">🌙 Toggle Theme</button>
+</div>
+</body>
+</html>
